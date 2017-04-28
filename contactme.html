@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <script src='function.js'></script>
+</head>
+<body>
+<div class="cv-wraper">
+	<div class="cv">
+		<div class="personal-info">
+			<div class="photo">
+				<img src="images/photo.jpg"  width="100%" alt="photo">
+			</div>
+			<div class="name">Huiting Wang</div>
+			<div class="infos">
+				<p>
+					<em>Age:</em>
+					<span>22</span>
+				</p>
+				<p>
+					<em>Major:</em>
+					<span>Computing</span>
+				</p>
+				<p>
+					<em>city:</em>
+					<span>Dublin, Ireland</span>
+				</p>
+			</div>
+		</div>
+		<div class="cv-right">
+			<div class="location-btn" id="location-btn"></div>
+			<div class="location" id="location">
+				<a href="aboutme.html">About Me</a>
+				<a href="education.html">Education</a>
+				<a href="#" class="active">Contact Me</a>
+			</div>
+			<div class="else-info">
+					<div class="interest">
+						<h2>Interest</h2>
+						<div class="logo">
+							<div class="logo-item">
+								<img src="images/photography.jpg">
+								<p><b>Photography</b></p>
+							</div>
+							<div class="logo-item">
+								<img src="images/cooking.jpg">
+								<p><b>Cooking</b></p>
+							</div>
+							<div class="logo-item">
+								<img src="images/music.jpg">
+								<p><b>Music</b></p>
+							</div>
+							<div class="logo-item">
+								<img src="images/swimming.jpg">
+								<p><b>Swimming</b></p>
+							</div>
+						</div>
+					</div>
+
+				    <div class="contact">
+						<div class="me">
+						    <h2>Contact Me</h2>
+						    <p>
+							<a href="https://www.facebook.com/huiting.wang.5268"><img src="images/facebook.jpg"></a>
+							<a href="http://www.HuitingWang.blogspot.com"><img src="images/blogger.jpg"></a>
+							<a href="https://twitter.com/Huiting0528"><img src="images/twitter.jpg"></a>
+							</p>
+						    <p>
+						        <b>Address:</b><br>
+						        DIT Kevin Street Dublin 2
+							</p>
+							<p>
+								<b>Email:</b> d16124455@dit.ie
+							</p>
+							<p>
+							    <b>Phone:</b> +353 (89)223 0753
+							</p>
+						</div>
+						<div class="contact-right">
+						    <div class="form">
+					        <form name="Contact Me" action="mailto:d16124455@dit.ie" method="post">
+							    Name:<br>
+							    <input type="text" id="name" name="name" maxlength="25" required>
+							    <br>
+							    Email Address:<br>
+							    <input type="text" id="email" name="email" maxlength="35" required>
+							    <br>
+							    Message:<br>
+							    <textarea id="message" name="message" style="height: 150px"></textarea>
+							    <br><br>
+							    <input type="submit" value="Send">
+					        </form>
+					        </div>
+					    </div>
+					</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
